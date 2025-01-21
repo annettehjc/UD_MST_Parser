@@ -4,6 +4,7 @@ A minimun spanning tree parser for [universal dependency](https://universaldepen
 **Authors:** Hyunjoo Cho ([@annettehjc](https://github.com/annettehjc)), Erik Zeiner ([@ErikZeiner](https://github.com/ErikZeiner)).
 
 ## Example
+![](given_ud_tree.png)
 ```
 digraph {
 	<ROOT> -> give [label="root(8508889.00)"]
