@@ -18,15 +18,10 @@ digraph {
 	oakland -> between [label="case(80109000.00)"]
 	oakland -> and [label="cc(257127.00)"]
 }
-
+```
+Parser will parse the given sentences with the MST algorithm in to a universal dependency tree. Each arc will be given with a corresponding weight.
+```
 Macro averaged UAS: 0.47616909423608644
 Macro averaged LAS: 0.37184156712786176
 ```
-Parser will parse the given sentences with the MST algorithm. 
-Parse a given sentence with the MST algorithm.
-
-    Note that even though we are doing labeled parsing, dependency
-    labels are determined at the beginning (our scorers do not
-    always assign the same score to the same label between two
-    words) 
-The output calculates unlabeled attachment score (UAS) and labeled attachment score (LAS) on all sentences, and report the average UAS and LAS per sentence as a macro average. 
+At the end, the scorer will calculates unlabeled attachment score (UAS) and labeled attachment score (LAS) using the golden output and the predicted output, and report the average UAS and LAS per sentence as a macro average
