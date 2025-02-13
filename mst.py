@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""
- Course:      Data Structures and Algorithms for CL III - WS2324
- Assignment:  Final Project
- Author:      Hyunjoo Cho, Erik Zeiner
- Description: Methods for parsing and evaluation of a parse both using a directed graph implementation for MST parsing - class DepGraph
-
- Honor Code:  We pledge that this program represents our own work.
-"""
 import numpy as np
 import graphviz
 import scorer
