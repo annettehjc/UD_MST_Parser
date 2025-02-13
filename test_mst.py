@@ -1,12 +1,3 @@
-'''
- Course:      Data Structures and Algorithms for CL III - WS2324
- Assignment:  Final Project
- Author:      Hyunjoo Cho, Erik Zeiner
- Description: Tests for mst.py and scorer.py
-
- Honor Code:  We pledge that this program represents our own work.
-'''
-
 import pytest, os, glob, pytest_timeout
 from mst import *
 from scorer import *
