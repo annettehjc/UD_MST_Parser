@@ -1,14 +1,4 @@
 #!/usr/bin/env python3
-"""
- Course:      Data Structures and Algorithms for CL III - WS2324
- Assignment:  Final Project
- Author:      Hyunjoo Cho, Erik Zeiner
- Description: Two scorers - the baseline and another approach with better performance
-
- 
- Honor Code:  We pledge that this program represents our own work.
-"""
-
 import numpy as np
 from collections import Counter
 from conllu import read_conllu
